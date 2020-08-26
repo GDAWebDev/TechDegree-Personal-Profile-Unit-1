@@ -74,6 +74,7 @@ a:hover {
 
 header {
   text-align: center;
+  /* file size is 887KB */
   /* https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Bancorpmthood.jpg/725px-Bancorpmthood.jpg */
   /* title="Michael Wiley / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" href="https://commons.wikimedia.org/wiki/File:Bancorpmthood.jpg"><img width="512" alt="Bancorpmthood" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Bancorpmthood.jpg/512px-Bancorpmthood.jpg"> */
   background: url('https://upload.wikimedia.org/wikipedia/commons/0/09/Bancorpmthood.jpg')  /*'new_background.jpg' is the file in the folder, I don't have an attribution for it */ no-repeat top center ;
