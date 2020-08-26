@@ -2,7 +2,24 @@
 * { 
   box-sizing: border-box;
 }
+
+main {
+    background-color: #2F4F9F;
+}
+
+p {
+    color: #1D275A;
+}
+
+div {
+    color: #61609C;
+}
   
+footer {
+    background-color: #2F4F9F;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -57,7 +74,9 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('new_background.jpg') no-repeat top center ;
+  /* https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Bancorpmthood.jpg/725px-Bancorpmthood.jpg */
+  /* title="Michael Wiley / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" href="https://commons.wikimedia.org/wiki/File:Bancorpmthood.jpg"><img width="512" alt="Bancorpmthood" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Bancorpmthood.jpg/512px-Bancorpmthood.jpg"> */
+  background: url('https://upload.wikimedia.org/wikipedia/commons/0/09/Bancorpmthood.jpg')  /*'new_background.jpg' is the file in the folder, I don't have an attribution for it */ no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -85,8 +104,8 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #6A434F;
+  color: #FCFCA3;
 }
 .card {
   margin: 30px;
@@ -110,27 +129,27 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #6A434F;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #61609C;
 }
 
 .skills2 li {
   border-radius: 6px;
   display: inline-block;
-  background: blueviolet;
+  background: #61609C;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills2 li:nth-child(odd) {
-  background: darkred;
+  background: #6A434F;
 }
 
 footer {
@@ -161,7 +180,7 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: 1;
   transition: all .5s;
 }
 a.twitter {
