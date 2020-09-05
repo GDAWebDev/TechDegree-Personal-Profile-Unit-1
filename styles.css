@@ -4,7 +4,7 @@
 }
 
 main {
-    background-color: #2F4F9F;
+    /*background-color: #2F4F9F;*/
 }
 
 p {
@@ -26,7 +26,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #2F4F9F;
 }
 /* Link Styles */
 
