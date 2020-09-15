@@ -153,11 +153,12 @@ ul.skills {
   background: #6A434F;
 }
 
-footer {
+footer  /* make this look like the header */
+{
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
-  background: 
+  background-color: black; 
 }
 
 footer .copyright {
