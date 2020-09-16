@@ -233,6 +233,11 @@ a.social:hover {
     line-height: 1.6em;
   }
 
+  /* center aligns the 'Ways to contact me' section*/
+  section.contact {
+      margin: auto;
+  }
+
   footer {
     font-size: 1.3em;
     max-width: 100%;
