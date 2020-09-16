@@ -164,6 +164,7 @@ footer  /* make this look like the header */
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: #999;
 }
 
 footer ul {
