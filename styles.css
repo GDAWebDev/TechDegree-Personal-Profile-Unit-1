@@ -159,7 +159,7 @@ footer  /* make this look like the header */
   min-height: 30px;
   padding: 20px 0 40px 20px;
   background-color: black; 
-}
+} 
 
 footer .copyright {
   top: -8px;
@@ -235,8 +235,8 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
+    max-width: 100%;
+    /*margin: 40px auto;*/
   }
 
 }
